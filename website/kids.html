@@ -1,0 +1,103 @@
+<!--Hello World-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
+    <title >Lavish Shoes Store</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class='heading'>
+            <img class='shoe' src='https://static.highsnobiety.com/thumbor/YeYDBWBquXgKrespD5KZO5YsT4M=/960x640/static.highsnobiety.com/wp-content/uploads/2020/06/25142245/jordan-1-smoke-grey-main.jpg' type='image/gif'/>
+            <h2 id='name'>Lavish Shoes Store</h2>
+          </div>
+          <button id='headline' class="col" onclick="location.href='index.html'">
+              Home
+          </button>
+          <button id='headline' class="col" onclick="location.href='kids.html'">
+            Kid's Shoes
+          </button>
+          <button id='headline' class="col" onclick="location.href='men.html'">
+            Men's Shoes
+          </button>
+          <button id='headline' class="col" onclick="location.href='women.html'">
+            Women's Shoes
+          </button>
+          <button id='headline' class="col" onclick="location.href='my-cart.html'">
+            <img id='cart' src='https://previews.123rf.com/images/asmati/asmati1703/asmati170305329/73938303-shopping-cart-with-add-mark-sign-vector-icon-printed-at-3d-on-sea-color-background-.jpg'> My Cart
+          </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class='col'>
+          <div class="card" style="width: 18rem;">
+           <img src="https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/default/dwaf52d24a/105591_233131_1.jpg?sw=700&sh=593&sm=fit" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 id='title1' class="card-title">Girls' Nike Max Excee</h5>
+             <p class="card-text">Little Kid Air Max Excee Sneakers for girls.</p>
+             <p>$70.00</p>
+             <a href="#" class="btn btn-primary" onclick="saveToCart1();">Add to Cart</a>
+           </div>
+          </div>
+        </div>
+        <div class='col'>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/default/dwef9efaeb/106200_227138_1.jpg?sw=700&sh=593&sm=fit" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 id='title2' class="card-title">Girls' Adidas TR 2.0</h5>
+              <p class="card-text">Little Kid & Big Kid Racer TR 2.0 Running Shoes.</p>
+              <p>$50.00</p>
+              <a href="#" class="btn btn-primary" onclick="saveToCart2();">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class='col'>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/default/dw03b2aae0/88033_168157_1.jpg?sw=700&sh=593&sm=fit"   class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 id='title3' class="card-title">Kids' Nike Tanjun Sneakers</h5>
+              <p class="card-text">Little Kids' Tanjun Sneakers. Unisex, breathable.</p>
+              <p>$50.00</p>
+              <a href="#" class="btn btn-primary" onclick="saveToCart3();">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class='col'>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/default/dwf4da0530/106201_227111_1.jpg?sw=700&sh=593&sm=fit" alt="...">
+            <div class="card-body">
+              <h5 id='title4' class="card-title">Boys' Adidas Lite Racer</h5>
+              <p class="card-text">Little Kid & Big Kid Lite Racer Adapt 3 Sneakers</p>
+              <p>$50.00</p>
+              <a href="#" class="btn btn-primary" onclick="saveToCart4();">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+            
+    <div class="container">
+      <div class="row">
+        <div id='bottom'>
+          <p>@Copyright 2021</p>
+        </div>
+      </div>
+        
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

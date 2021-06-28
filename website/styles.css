@@ -1,0 +1,57 @@
+
+.heading {
+    display: inline-flex;
+    grid-row: auto;
+    background-color: whitesmoke;
+}
+
+.shoe {
+    height: 70px;
+    width: 120px;
+}
+
+#headline {
+    background-color: rgb(43, 117, 117);
+}
+
+#name {
+    padding: 15px;
+    color: brown;
+}
+
+.card-title {
+    color: blue;
+}
+
+#trending {
+    color: black;
+    background-color: whitesmoke;
+}
+
+#body {
+    display: grid;
+    grid-gap: 2px;
+    grid-column: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    background-color: transparent;
+}
+
+#bottom {
+    display: grid;
+    text-align: center;
+    background-color: rgb(43, 117, 117);
+  
+}
+
+.container {
+    grid-row: auto;
+    gap: 20px;
+    
+}
+
+#cart {
+    height: 40px;
+    width: 70px;
+    float:inline-end;
+    border: transparent;
+}

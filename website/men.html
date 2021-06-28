@@ -1,0 +1,103 @@
+<!--Hello World-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
+    <title >Lavish Shoes Store</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class='heading'>
+            <img class='shoe' src='https://static.highsnobiety.com/thumbor/YeYDBWBquXgKrespD5KZO5YsT4M=/960x640/static.highsnobiety.com/wp-content/uploads/2020/06/25142245/jordan-1-smoke-grey-main.jpg' type='image/gif'/>
+            <h2 id='name'>Lavish Shoes Store</h2>
+          </div>
+          <button id='headline' class="col" onclick="location.href='index.html'">
+              Home
+          </button>
+          <button id='headline' class="col" onclick="location.href='kids.html'">
+            Kid's Shoes
+          </button>
+          <button id='headline' class="col" onclick="location.href='men.html'">
+            Men's Shoes
+          </button>
+          <button id='headline' class="col" onclick="location.href='women.html'">
+            Women's Shoes
+          </button>
+          <button id='headline' class="col" onclick="location.href='my-cart.html'" onclick='viewCart();'>
+            <img id='cart' src='https://previews.123rf.com/images/asmati/asmati1703/asmati170305329/73938303-shopping-cart-with-add-mark-sign-vector-icon-printed-at-3d-on-sea-color-background-.jpg'> My Cart
+          </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class='col'>
+          <div class="card" style="width: 18rem;">
+           <img src="https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/  default/dw7a06a40d/102358_201681_1.jpg?sw=700&sh=593&sm=fit" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 id='title1' class="card-title">Men's Nike Air</h5>
+             <p class="card-text">Flight Legacy Basketball Shoes for men.</p>
+             <p>$90.00</p>
+             <a href="#" class="btn btn-primary" onclick="saveToCart1();">Add to Cart</a>
+           </div>
+          </div>
+        </div>
+        <div class='col'>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/ default/dwe41c3767/98219_197820_1.jpg?sw=700&sh=593&sm=fit" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 id='title2' class="card-title">Men's New Balance</h5>
+              <p class="card-text">MX608V5 Training Shoes for men. Durable.</p>
+              <p>$74.99</p>
+              <a href="#" class="btn btn-primary" onclick="saveToCart2();">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class='col'>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/ default/dwd4b9ff3d/109518_233752_1.jpg?sw=700&sh=593&sm=fit"   class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 id='title3' class="card-title">Men's Nike Kyrie Flytrap</h5>
+              <p class="card-text">IV Basketball Shoes for men. Breathable.</p>
+              <p>$90.00</p>
+              <a href="#" class="btn btn-primary" onclick="saveToCart3();">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class='col'>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/default/dw7c832f65/100746_208804_1.jpg?sw=700&sh=593&sm=fit" alt="...">
+            <div class="card-body">
+              <h5 id='title4' class="card-title">Men's ASICS</h5>
+              <p class="card-text">Gel Venture 7 Trail Running Shoes for men</p>
+              <p>$59.98</p>
+              <a href="#" class="btn btn-primary" onclick="saveToCart4();">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+            
+    <div class="container">
+      <div class="row">
+        <div id='bottom'>
+          <p>@Copyright 2021</p>
+        </div>
+      </div>
+        
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
